@@ -1,18 +1,17 @@
-import { useState } from 'react'
+import { BrowserRouter, Router, Link, Routes, Route } from "react-router-dom";
+import Home from "./pages/home";
+import Cursos from "./pages/cursos";
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
-    <>
-      <div>
-      
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
-    </>
-  )
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/cursos" element={<Cursos />} />
+      </Routes>
+    </BrowserRouter>
+  );
 }
 
-export default App
+export default App;
+
