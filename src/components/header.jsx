@@ -12,7 +12,7 @@ const Header = () => {
                     <span className="ml-3 text-xl">Escuela de Yachting</span>
                     </a>
                     <nav className="md:ml-auto flex flex-wrap items-center text-base justify-center">
-                        
+        
                     <Link to='/' className="mr-5 hover:text-slate-100">Inicio</Link>
                     <Link to='/cursos' className="mr-5 hover:text-slate-100">Cursos</Link>
                     <Link className="mr-5 hover:text-slate-100">Viajes</Link>
