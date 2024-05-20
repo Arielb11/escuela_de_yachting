@@ -8,7 +8,11 @@ export default {
     extend: {
       colors: {
         'azul-edit': '#446084',
-      }
+      },
+      fontFamily: {
+         
+         Dafoe: ["Della Respira", 'serif']
+      },
     },
   },
   plugins: [],

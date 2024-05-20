@@ -27,8 +27,8 @@ header .brand{
     font-weight: 700;
     text-transform: uppercase;
     text-decoration: none;
-    width: 80px;
-    height: 80px;
+    width: 90px;
+    height: 90px;
 }
 
 header .navigation{
@@ -97,6 +97,11 @@ section{
     color: #fff;
     width: 70%;
     margin-top: 50px;
+    display: none;
+}
+
+.home .content.active{
+    display: block;
 }
 
 .home .content h1 {
@@ -114,12 +119,12 @@ section{
 }
 
 .home .content h2 {
-    font-size: 4em;
+    font-size: 3em;
     font-weight: 900;
     text-transform: uppercase;
-    letter-spacing: 5px;
+    letter-spacing: 1px;
     line-height: 75px;
-    margin-bottom: 40px;
+    margin-bottom: 20px;
 }
 
 .home .content h2 span{
@@ -211,6 +216,14 @@ section{
 .video-slide{
     position: absolute;
     width: 100%;
+    display: none;
+}
+
+.video-slide.active{
+    clip-path: circle(150% at 0 50%);
+    transition: 2s ease;
+    transition-property: clip-path;
+    display: block;
 }
 
 
@@ -285,6 +298,27 @@ section{
         background-size: 25px;
         background-position: center;
         transition: 0.3s ease;
+    }
+
+    .carousel-container {
+        overflow-x: auto; 
+        white-space: nowrap;  
+    }
+
+    .video-slide {
+        width: 100%; 
+        display: inline-block; 
+        
+    }
+
+    .slider-navigation .nav-btn{
+        width: 20px;
+        height: 20px;
+    }
+
+    .home .content .bug {
+        font-size: 1.9em;
+        
     }
 
 }
