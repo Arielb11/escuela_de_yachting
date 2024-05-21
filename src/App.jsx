@@ -2,6 +2,8 @@ import { BrowserRouter, Router, Link, Routes, Route } from "react-router-dom";
 import Home from "./pages/home";
 import Cursos from "./pages/cursos";
 
+
+
 function App() {
   return (
     <BrowserRouter>

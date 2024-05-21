@@ -1,12 +1,13 @@
+import Carrusel from "../components/carrusel";
 import Header from "../components/header";
-import Map from "../others/Map";
+import Viajes from "../components/viajes";
+
+
 const Home = () => {
     return (
         <>
-        <div className="bg-azul-edit">
-            <Header />
-        </div>
-            <Map />
+            <Carrusel />
+            <Viajes />
         </>
       
     );
