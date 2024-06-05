@@ -1,5 +1,4 @@
-import Carrusel from "../components/carrusel";
-import Header from "../components/header";
+import Carrusel from "../components/Carrusel/carrusel";
 import Viajes from "../components/viajes";
 import Mapa from "../components/mapa";
 import Opiniones from "../components/opiniones";

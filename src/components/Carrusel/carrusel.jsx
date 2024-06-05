@@ -110,7 +110,7 @@ const Carrusel = () => {
                                 <a href="">Meteorologia Aeronautica</a>
                             </div>
                         </div>
-                        <a href="" className="mbi">Viajes</a>
+                        <a href="/Viajes" className="mbi">Viajes</a>
                         <a href="" className="mbi">Nosotros</a>
                         <a href="" className="mbi">Contactanos</a>
                     </div>
