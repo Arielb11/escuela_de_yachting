@@ -93,7 +93,7 @@ const Carrusel = () => {
                         <div className="dropdown">
                             <a href="" className="mbi">Cursos</a>
                             <div className="dropdown-content">
-                                <a href="">Conductor Nautico</a>
+                                <a href="/Conductornautico">Conductor Nautico</a>
                                 <a href="">Timonel Vela y Motor</a>
                                 <a href="">Timonel Yate Motor</a>
                                 <a href="">Patron de Yate</a>
@@ -111,7 +111,7 @@ const Carrusel = () => {
                             </div>
                         </div>
                         <a href="/Viajes" className="mbi">Viajes</a>
-                        <a href="" className="mbi">Nosotros</a>
+                        <a href="/Nosotros" className="mbi">Nosotros</a>
                         <a href="" className="mbi">Contactanos</a>
                     </div>
                 </div>
