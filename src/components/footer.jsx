@@ -42,13 +42,21 @@ const Footer = () => {
                         <div className="text-sm uppercase  font-bold mb-5">Seguinos en nuestras redes!</div>
                         <ul className="grid grid-cols-3 gap-5">
                             <li>
-                                <img src="/src/assets/img/instagram.png" className="w-20"/>
+                                <Link to="https://www.instagram.com/escueladeyachting">
+                                    <img src="/src/assets/img/instagram.png" className="w-20"/> 
+                                </Link>
+                                
                             </li>
                             <li>
-                                <img src="/src/assets/img/facebook.png" className="w-20"/>
+                                <Link to="https://www.facebook.com/escuelanauticacba">
+                                    <img src="/src/assets/img/facebook.png" className="w-20"/>  
+                                </Link>
+                                
                             </li>
                             <li>
-                                <img src="/src/assets/img/whatsapp.png" className="w-20"/>
+                                <Link to="https://wa.me/+543445405385">
+                                    <img src="/src/assets/img/whatsapp.png" className="w-20"/>
+                                </Link>
                             </li>
                         </ul>
                     </div>

@@ -93,11 +93,11 @@ const Carrusel = () => {
                         <div className="dropdown">
                             <a href="" className="mbi">Cursos</a>
                             <div className="dropdown-content">
-                                <a href="">Conductor Nautico</a>
-                                <a href="">Timonel Vela y Motor</a>
-                                <a href="">Timonel Yate Motor</a>
-                                <a href="">Patron de Yate</a>
-                                <a href="">Perfeccionamiento</a>
+                                <a href="/Conductornautico">Conductor Nautico</a>
+                                <a href="/Timonelvelamotor">Timonel Vela y Motor</a>
+                                <a href="/Timonelyatemotor">Timonel Yate Motor</a>
+                                <a href="/Patrondeyate">Patron de Yate</a>
+                                <a href="/Perfeccionamiento">Perfeccionamiento</a>
                             </div>
                         </div>
 
@@ -111,8 +111,8 @@ const Carrusel = () => {
                             </div>
                         </div>
                         <a href="/Viajes" className="mbi">Viajes</a>
-                        <a href="" className="mbi">Nosotros</a>
-                        <a href="" className="mbi">Contactanos</a>
+                        <a href="/Nosotros" className="mbi">Nosotros</a>
+                        <a href="/Formulario" className="mbi">Inscribirse</a>
                     </div>
                 </div>
             </header>
@@ -161,8 +161,8 @@ const Carrusel = () => {
                 
 
                 <div className="media-icons">
-                    <a href="#"><i className="fab fa-facebook-f"></i></a>
-                    <a href="#"><i className="fab fa-instagram"></i></a>
+                    <a href="https://www.facebook.com/escuelanauticacba"><i className="fab fa-facebook-f"></i></a>
+                    <a href="https://www.instagram.com/escueladeyachting"><i className="fab fa-instagram"></i></a>
                 </div>
 
 

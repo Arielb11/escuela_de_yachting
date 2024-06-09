@@ -40,11 +40,11 @@ const Header = () => {
                         <div className="dropdown">
                             <a href="" className="mbi">Cursos</a>
                             <div className="dropdown-content">
-                                <a href="">Conductor Nautico</a>
-                                <a href="">Timonel Vela y Motor</a>
-                                <a href="">Timonel Yate Motor</a>
-                                <a href="">Patron de Yate</a>
-                                <a href="">Perfeccionamiento</a>
+                                <a href="/Conductornautico">Conductor Nautico</a>
+                                <a href="/Timonelvelamotor">Timonel Vela y Motor</a>
+                                <a href="/Timonelyatemotor">Timonel Yate Motor</a>
+                                <a href="/Patrondeyate">Patron de Yate</a>
+                                <a href="/Perfeccionamiento">Perfeccionamiento</a>
                             </div>
                         </div>
 
@@ -57,9 +57,9 @@ const Header = () => {
                                 <a href="">Meteorologia Aeronautica</a>
                             </div>
                         </div>
-                        <a href="" className="mbi">Viajes</a>
-                        <a href="" className="mbi">Nosotros</a>
-                        <a href="" className="mbi">Contactanos</a>
+                        <a href="/Viajes" className="mbi">Viajes</a>
+                        <a href="/Nosotros" className="mbi">Nosotros</a>
+                        <a href="/Formulario" className="mbi">Inscribirse</a>
                     </div>
                 </div>
             </header>
