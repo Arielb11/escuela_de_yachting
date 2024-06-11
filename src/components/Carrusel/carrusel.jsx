@@ -83,7 +83,7 @@ const Carrusel = () => {
     return (
         <>
             <header>
-                <a href="#" className="brand"><img src="/src/assets/img/file.png" alt="Logo" /></a>
+                <a href="/" className="brand"><img src="/src/assets/img/file.png" alt="Logo" /></a>
                 <div className="menu-btn"></div>
 
                 <div className="navigation">
@@ -104,10 +104,10 @@ const Carrusel = () => {
                         <div className="dropdown">
                             <a className="mbi" href="" >Cursos Online</a>
                             <div className="dropdown-content">
-                                <a href="">Navegacion Astronomica</a>
-                                <a href="">Meteorologia Practica</a>
-                                <a href="">Navegacion Electronica</a>
-                                <a href="">Meteorologia Aeronautica</a>
+                                <a href="/navegacionastronomica">Navegacion Astronomica</a>
+                                <a href="/meteorologiapractica">Meteorologia Practica</a>
+                                <a href="/navegacionelectronica">Navegacion Electronica</a>
+                                <a href="/meteorologiaaeronautica">Meteorologia Aeronautica</a>
                             </div>
                         </div>
                         <a href="/Viajes" className="mbi">Viajes</a>
@@ -131,32 +131,32 @@ const Carrusel = () => {
                 <div className="content active">
                     <h2>Escuela de Yatching</h2>
                     <p>La Escuela de Náutica Deportiva del Club Náutico Córdoba se fundó en 1997 en Villa Carlos Paz, Argentina. Desde los comienzos, nuestra filosofía siempre ha sido la de ofrecer una formación de máxima calidad, con los medios apropiados y adaptándonos a la disponibilidad de tiempo de nuestros alumnos, por eso tenemos la más amplia disponibilidad de horarios y días para tomar los cursos.</p>
-                    <a href="#">Saber mas</a>
+                    <a href="/nosotros">Saber mas</a>
                 </div>
                 <div className="content">
                     <h2>Curso de Conductor Nautico</h2>
                     <p>En este curso aprenderás a ser capitán o tripulante de una embarcación. Desarrollarás habilidades prácticas en el barco escuela en circunstancias reales de navegación. Además incorporarás conocimientos de meteorología, seguridad, reglamentación y navegación, conforme al programa oficial de la Prefectura Naval Argentina.</p>
-                    <a href="#">Saber mas</a>
+                    <a href="/conductornautico">Saber mas</a>
                 </div>
                 <div className="content">
                     <h2>Curso de Timonel Vela y Motor</h2>
                     <p>El Curso de Timonel de yates a vela y motor es el ideal para quien desea adquirir o complementar conocimientos náuticos que le permitan obtener una habilitación de gran amplitud, con la posibilidad de despachar embarcaciones deportivas en aguas nacionales e internacionales (Costas y archipiélagos de América, Europa y Polinesia).</p>
-                    <a href="#">Saber mas</a>
+                    <a href="/timonelvelamotor">Saber mas</a>
                 </div>
                 <div className="content">
                     <h2>Patron de Yate</h2>
                     <p>Si ya sos timonel y querés avanzar, este es tu próximo paso. Los objetivos de este curso son profundizar en las artes marineras y cubrir Meteorología, Seguridad, Reglamentación y Navegación, con énfasis en Navegación por Estima y Costera. Se adquieren conocimientos teóricos y prácticos para una navegación segura como patrón de yate. También se incluye la práctica del uso del sextante.</p>
-                    <a href="#">Saber mas</a>
+                    <a href="/patrondeyate">Saber mas</a>
                 </div>
                 <div className="content">
                     <h2>Curso de Timonel Yate y Motor</h2>
                     <p>El Curso de Timonel de yates a motor es el ideal para quien desea adquirir o complementar conocimientos náuticos que le permitan obtener una habilitación de gran amplitud, con la posibilidad de despachar embarcaciones deportivas en aguas nacionales e internacionales (Costas y archipiélagos de América, Europa y Polinesia).</p>
-                    <a href="#">Saber mas</a>
+                    <a href="/timonelyatemotor">Saber mas</a>
                 </div>
                 <div className="content">
                     <h2 className="bug">Perfeccionamiento </h2>
                     <p>El Curso es ideal para quienes desean mejorar habilidades en regatas, puesta a punto, maniobras específicas, trimado de velas, ingreso y salida de puertos a vela o motor, fondeo con ancla, amarre en muelle o marina. Incluye cuidados del barco, navegación con mal tiempo, capear temporales, meteorología práctica e incorporar conocimientos avanzados en todas las áreas de la navegación.</p>
-                    <a href="#">Saber mas</a>
+                    <a href="/perfeccionamiento">Saber mas</a>
                 </div>
                 
 

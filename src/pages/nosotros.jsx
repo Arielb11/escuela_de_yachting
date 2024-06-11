@@ -57,7 +57,7 @@ const Nosotros = () => {
 
                     </div>
 
-                    <div className="mt-12 grid grid-cols-2 gap-6 md:grid-cols-3 lg:grid-cols-5 justify-center">
+                    <div className="mt-12 grid grid-cols-2 gap-6 md:grid-cols-3 lg:grid-cols-3 justify-center">
                         <div className="flex flex-col items-center space-y-2">
                             <img
                             src="/src/assets/img/nos1.jpg"
@@ -90,28 +90,6 @@ const Nosotros = () => {
                             />
                             <h3 className="text-lg font-semibold">Michael Johnson</h3>
                             <p className="text-gray-500 dark:text-gray-400">COO</p>
-                        </div>
-                        <div className="flex flex-col items-center space-y-2">
-                            <img
-                            src="/src/assets/img/nos1.jpg"
-                            width={200}
-                            height={200}
-                            alt="Emily Davis"
-                            className="h-[200px] w-[200px] rounded-full object-cover"
-                            />
-                            <h3 className="text-lg font-semibold">Emily Davis</h3>
-                            <p className="text-gray-500 dark:text-gray-400">CFO</p>
-                        </div>
-                        <div className="flex flex-col items-center space-y-2">
-                            <img
-                            src="/src/assets/img/nos1.jpg"
-                            width={200}
-                            height={200}
-                            alt="Sarah Lee"
-                            className="h-[200px] w-[200px] rounded-full object-cover"
-                            />
-                            <h3 className="text-lg font-semibold">Sarah Lee</h3>
-                            <p className="text-gray-500 dark:text-gray-400">CIO</p>
                         </div>
                     </div>
                 </div>
