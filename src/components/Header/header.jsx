@@ -30,7 +30,7 @@ const Header = () => {
     return (
         <>
             <header className="doble">
-                <a href="#" className="brand"><img src="/src/assets/img/logo.png" alt="Logo" /></a>
+                <a href="/" className="brand"><img src="/src/assets/img/logo.png" alt="Logo" /></a>
                 <div className="menu-btn"></div>
 
                 <div className="navigation">
@@ -51,10 +51,10 @@ const Header = () => {
                         <div className="dropdown">
                             <a className="mbi" href="" >Cursos Online</a>
                             <div className="dropdown-content">
-                                <a href="">Navegacion Astronomica</a>
-                                <a href="">Meteorologia Practica</a>
-                                <a href="">Navegacion Electronica</a>
-                                <a href="">Meteorologia Aeronautica</a>
+                                <a href="/navegacionastronomica">Navegacion Astronomica</a>
+                                <a href="/meteorologiapractica">Meteorologia Practica</a>
+                                <a href="/navegacionelectronica">Navegacion Electronica</a>
+                                <a href="/meteorologiaaeronautica">Meteorologia Aeronautica</a>
                             </div>
                         </div>
                         <a href="/Viajes" className="mbi">Viajes</a>
