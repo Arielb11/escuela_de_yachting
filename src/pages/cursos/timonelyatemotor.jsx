@@ -73,21 +73,21 @@ export default function Timonelyatemotor() {
                   </div>
                   <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
                     <img
-                        src="/src/assets/img/curso1.jpg"
+                        src="/src/assets/img/timonelM.jpeg"
                         alt="Curso de Navegación"
                         width={600}
                         height={400}
                         className="rounded-lg object-cover w-full aspect-[3/2]"
                     />
                     <img
-                        src="/src/assets/img/curso2.jpg"
+                        src="/src/assets/img/timonelM2.jpeg"
                         alt="Curso de Navegación"
                         width={600}
                         height={400}
                         className="rounded-lg object-cover w-full aspect-[3/2]"
                     />
                     <img
-                        src="/src/assets/img/curso3.jpg"
+                        src="/src/assets/img/timonelM3.jpeg"
                         alt="Curso de Navegación"
                         width={600}
                         height={400}
@@ -237,46 +237,46 @@ export default function Timonelyatemotor() {
                   <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
                     <div className="grid gap-4">
                         <img
-                            src="/src/assets/img/nos1.jpg"
+                            src="/src/assets/img/bauti.jpeg"
                             alt="Instructor 1"
                             width={100}
                             height={100}
                             className="rounded-full w-20 h-20 object-cover"
                         />
                       <div className="grid gap-1">
-                          <h3 className="font-semibold">Juan Pérez</h3>
+                          <h3 className="font-semibold">Romero Argerich Bautista</h3>
                           <p className="text-gray-500 ">
-                          Experto en navegación con más de 15 años de experiencia.
+                          Profesor Clases Prácticas / Teóricas
                           </p>
                       </div>
                     </div>
                     <div className="grid gap-4">
                       <img
-                          src="/src/assets/img/nos1.jpg"
+                          src="/src/assets/img/miky.jpeg"
                           alt="Instructor 2"
                           width={100}
                           height={100}
                           className="rounded-full w-20 h-20 object-cover"
                       />
                       <div className="grid gap-1">
-                          <h3 className="font-semibold">María Gómez</h3>
+                          <h3 className="font-semibold">Romero Miguel Angel</h3>
                           <p className="text-gray-500 ">
-                          Instructora certificada en navegación terrestre y marítima.
+                          Profesor Clases Teóricas / Prácticas
                           </p>
                       </div>
                     </div>
                     <div className="grid gap-4">
                       <img
-                          src="/src/assets/img/nos1.jpg"
+                          src="/src/assets/img/martin.jpeg"
                           alt="Instructor 3"
                           width={100}
                           height={100}
                           className="rounded-full w-20 h-20 object-cover"
                       />
                       <div className="grid gap-1">
-                          <h3 className="font-semibold">Pedro Rodríguez</h3>
+                          <h3 className="font-semibold">Caruso Martin</h3>
                           <p className="text-gray-500 ">
-                          Experto en navegación de montaña con amplia trayectoria.
+                          Profesor Clases Teóricas / Prácticas
                           </p>
                       </div>
                     </div>
