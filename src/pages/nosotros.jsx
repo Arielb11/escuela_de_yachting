@@ -10,7 +10,7 @@ const Nosotros = () => {
 
             <div className="relative mt-24">
                 <img 
-                    src="/src/assets/img/nosotros.jpg" 
+                    src="../assets/img/nosotros.jpg" 
                     alt="Imagen de un barco" 
                     className="w-full h-auto object-cover h-60 sm:h-64 md:h-96 xl:h-96 " 
                 />
@@ -60,36 +60,36 @@ const Nosotros = () => {
                     <div className="mt-12 grid grid-cols-2 gap-6 md:grid-cols-3 lg:grid-cols-3 justify-center">
                         <div className="flex flex-col items-center space-y-2">
                             <img
-                            src="/src/assets/img/nos1.jpg"
+                            src="../assets/img/miky.jpeg"
                             width={200}
                             height={200}
                             alt="John Doe"
                             className="h-[200px] w-[200px] rounded-full object-cover"
                             />
                             <h3 className="text-lg font-semibold">Miguel Ángel Romero (Micky)</h3>
-                            <p className="text-gray-500 dark:text-gray-400">CEO</p>
+                            <p className="text-gray-500 dark:text-gray-400">Profesor Clases Teóricas / Prácticas</p>
                         </div>
                         <div className="flex flex-col items-center space-y-2">
                             <img
-                            src="/src/assets/img/nos1.jpg"
+                            src="../assets/img/bauti.jpeg"
                             width={200}
                             height={200}
                             alt="Jane Smith"
                             className="h-[200px] w-[200px] rounded-full object-cover"
                             />
-                            <h3 className="text-lg font-semibold">Bautista</h3>
-                            <p className="text-gray-500 dark:text-gray-400">CTO</p>
+                            <h3 className="text-lg font-semibold">Romero Argerich Bautista</h3>
+                            <p className="text-gray-500 dark:text-gray-400">Profesor Clases Teóricas / Prácticas</p>
                         </div>
                         <div className="flex flex-col items-center space-y-2">
                             <img
-                            src="/src/assets/img/nos1.jpg"
+                            src="../assets/img/martin.jpeg"
                             width={200}
                             height={200}
                             alt="Michael Johnson"
                             className="h-[200px] w-[200px] rounded-full object-cover"
                             />
-                            <h3 className="text-lg font-semibold">Michael Johnson</h3>
-                            <p className="text-gray-500 dark:text-gray-400">COO</p>
+                            <h3 className="text-lg font-semibold">Caruso Martin</h3>
+                            <p className="text-gray-500 dark:text-gray-400">Profesor Clases Teóricas / Prácticas</p>
                         </div>
                     </div>
                 </div>

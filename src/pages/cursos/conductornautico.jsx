@@ -73,21 +73,21 @@ export default function Conductornautico() {
                   </div>
                   <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
                     <img
-                        src="/src/assets/img/conductor.jpeg"
+                        src="../assets/img/conductor.jpeg"
                         alt="Curso de Navegación"
                         width={600}
                         height={400}
                         className="rounded-lg object-cover w-full aspect-[3/2]"
                     />
                     <img
-                        src="/src/assets/img/conductor2.jpeg"
+                        src="../assets/img/conductor2.jpeg"
                         alt="Curso de Navegación"
                         width={600}
                         height={400}
                         className="rounded-lg object-cover w-full aspect-[3/2]"
                     />
                     <img
-                        src="/src/assets/img/conductor3.jpeg"
+                        src="../assets/img/conductor3.jpeg"
                         alt="Curso de Navegación"
                         width={600}
                         height={400}
@@ -193,19 +193,19 @@ export default function Conductornautico() {
                         <div className="grid gap-2">
                           <h2 className="text-2xl md:text-3xl font-bold">Metodos de pago</h2>
                           <div className="flex items-center space-x-4">
-                            <img src="/src/assets/img/billete-de-banco.png" alt="" className="h-5 w-5"/>
+                            <img src="../assets/img/billete-de-banco.png" alt="" className="h-5 w-5"/>
                             <p className="text-gray-500 text-base">
                               Efectivo
                             </p>
                           </div>
                           <div className="flex items-center space-x-4">
-                            <img src="/src/assets/img/cajero-automatico.png" alt="" className="h-5 w-5"/>
+                            <img src="../assets/img/cajero-automatico.png" alt="" className="h-5 w-5"/>
                             <p className="text-gray-500 text-base">
                               Deposito
                             </p>
                           </div>
                           <div className="flex items-center space-x-4">
-                            <img src="/src/assets/img/transferencia-movil.png" alt="" className="h-5 w-5"/>
+                            <img src="../assets/img/transferencia-movil.png" alt="" className="h-5 w-5"/>
                             <p className="text-gray-500 text-base">
                               Transferencia
                             </p>
@@ -237,7 +237,7 @@ export default function Conductornautico() {
                   <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
                     <div className="grid gap-4">
                         <img
-                            src="/src/assets/img/bauti.jpeg"
+                            src="../assets/img/bauti.jpeg"
                             alt="Instructor 1"
                             width={100}
                             height={100}
@@ -252,7 +252,7 @@ export default function Conductornautico() {
                     </div>
                     <div className="grid gap-4">
                       <img
-                          src="/src/assets/img/miky.jpeg"
+                          src="../assets/img/miky.jpeg"
                           alt="Instructor 2"
                           width={100}
                           height={100}
@@ -267,7 +267,7 @@ export default function Conductornautico() {
                     </div>
                     <div className="grid gap-4">
                       <img
-                          src="/src/assets/img/martin.jpeg"
+                          src="../assets/img/martin.jpeg"
                           alt="Instructor 3"
                           width={100}
                           height={100}

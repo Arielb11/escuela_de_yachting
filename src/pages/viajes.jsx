@@ -10,7 +10,7 @@ const Viajes = () => {
             
             <div className="relative mt-24">
                 <img 
-                    src="/src/assets/img/barco.png" 
+                    src="../assets/img/barco.png" 
                     alt="Imagen de un barco" 
                     className="w-full h-auto object-cover h-60 sm:h-64 md:h-96 lg:h-auto " 
                 />
@@ -33,10 +33,10 @@ const Viajes = () => {
             <section className="bg-white py-5">
                 <div className="container px-6 py-10 mx-auto">
                     <div className="lg:-mx-6 lg:flex lg:items-center">
-                        <img className="object-cover object-center lg:w-1/2 lg:mx-6 w-full h-96 rounded-lg lg:h-[36rem]" src="/src/assets/img/viajes-brasil2.jpg" alt=""/>
+                        <img className="object-cover object-center lg:w-1/2 lg:mx-6 w-full h-96 rounded-lg lg:h-[36rem]" src="../assets/img/viajes-brasil2.jpg" alt=""/>
 
                         <div className="mt-8 lg:w-1/2 lg:px-6 lg:mt-0">
-                            <img className="h-14 w-14" src="/src/assets/videos/balneario.gif" alt="" />
+                            <img className="h-14 w-14" src="../assets/videos/balneario.gif" alt="" />
 
                             <h1 className="text-4xl font-semibold text-gray-800  lg:text-5xl lg:w-96">
                                 BRASIL
@@ -69,10 +69,10 @@ const Viajes = () => {
             <section className="bg-white py-5">
                 <div className="container px-6 py-10 mx-auto">
                     <div className="lg:-mx-6 lg:flex lg:items-center">
-                        <img className="object-cover object-center lg:w-1/2 lg:mx-6 w-full h-96 rounded-lg lg:h-[36rem]" src="/src/assets/img/uruguay.jpg" alt=""/>
+                        <img className="object-cover object-center lg:w-1/2 lg:mx-6 w-full h-96 rounded-lg lg:h-[36rem]" src="../assets/img/uruguay.jpg" alt=""/>
 
                         <div className="mt-8 lg:w-1/2 lg:px-6 lg:mt-0">
-                            <img className="h-12 w-12" src="/src/assets/img/te-de-mate.png" alt="" />
+                            <img className="h-12 w-12" src="../assets/img/te-de-mate.png" alt="" />
 
                             <h1 className="text-4xl font-semibold text-gray-800  lg:text-5xl lg:w-96">
                                 URUGUAY
