@@ -240,9 +240,12 @@ export default function Perfeccionamiento() {
                         />
                       <div className="grid gap-1">
                           <h3 className="font-semibold">Romero Argerich Bautista</h3>
-                          <p className="text-gray-500 ">
+                          <li className="text-gray-500 ">
+                          Patron de Yate a Vela o Motor 
+                          </li>
+                          <li className="text-gray-500 ">
                           Profesor Clases Prácticas / Teóricas
-                          </p>
+                          </li>
                       </div>
                     </div>
                     <div className="grid gap-4">
@@ -255,9 +258,12 @@ export default function Perfeccionamiento() {
                       />
                       <div className="grid gap-1">
                           <h3 className="font-semibold">Romero Miguel Angel</h3>
-                          <p className="text-gray-500 ">
-                          Profesor Clases Teóricas / Prácticas
-                          </p>
+                          <li className="text-gray-500 ">
+                          PILOTO de YATES 
+                          </li>
+                          <li className="text-gray-500 ">
+                          Profesor Clases Prácticas / Teóricas
+                          </li>
                       </div>
                     </div>
                     <div className="grid gap-4">
@@ -270,9 +276,12 @@ export default function Perfeccionamiento() {
                       />
                       <div className="grid gap-1">
                           <h3 className="font-semibold">Caruso Martin</h3>
-                          <p className="text-gray-500 ">
-                          Profesor Clases Teóricas / Prácticas
-                          </p>
+                          <li className="text-gray-500 ">
+                          Patron de Yate a Vela o Motor 
+                          </li>
+                          <li className="text-gray-500 ">
+                          Profesor Clases Prácticas / Teóricas
+                          </li>
                       </div>
                     </div>
                   </div>

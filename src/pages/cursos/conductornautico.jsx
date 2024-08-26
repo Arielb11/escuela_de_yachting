@@ -157,7 +157,7 @@ export default function Conductornautico() {
                                         <p className="font-medium text-gray-200 uppercase">Socios</p>
 
                                         <h2 className="text-3xl font-bold text-white uppercase ">
-                                            $135.000
+                                            $70.000
                                         </h2>
                                         <p className="text-white">+</p>
                                         <p className="font-medium text-gray-200">Inscripcion: $85.000 </p>
@@ -174,7 +174,7 @@ export default function Conductornautico() {
                                         <p className="font-medium text-gray-200 uppercase">NO Socios</p>
 
                                         <h2 className="text-3xl font-bold text-white uppercase ">
-                                            $160.000
+                                            $80.000
                                         </h2>
                                         <p className="text-white">+</p>
                                         <p className="font-medium text-gray-200">Inscripcion: $100.000 </p>
@@ -245,9 +245,12 @@ export default function Conductornautico() {
                         />
                       <div className="grid gap-1">
                           <h3 className="font-semibold">Romero Argerich Bautista</h3>
-                          <p className="text-gray-500 ">
+                          <li className="text-gray-500 ">
+                          Patron de Yate a Vela o Motor 
+                          </li>
+                          <li className="text-gray-500 ">
                           Profesor Clases Prácticas / Teóricas
-                          </p>
+                          </li>
                       </div>
                     </div>
                     <div className="grid gap-4">
@@ -260,9 +263,12 @@ export default function Conductornautico() {
                       />
                       <div className="grid gap-1">
                           <h3 className="font-semibold">Romero Miguel Angel</h3>
-                          <p className="text-gray-500 ">
-                          Profesor Clases Teóricas / Prácticas
-                          </p>
+                          <li className="text-gray-500 ">
+                          PILOTO de YATES 
+                          </li>
+                          <li className="text-gray-500 ">
+                          Profesor Clases Prácticas / Teóricas
+                          </li>
                       </div>
                     </div>
                     <div className="grid gap-4">
@@ -275,9 +281,12 @@ export default function Conductornautico() {
                       />
                       <div className="grid gap-1">
                           <h3 className="font-semibold">Caruso Martin</h3>
-                          <p className="text-gray-500 ">
-                          Profesor Clases Teóricas / Prácticas
-                          </p>
+                          <li className="text-gray-500 ">
+                          Patron de Yate a Vela o Motor 
+                          </li>
+                          <li className="text-gray-500 ">
+                          Profesor Clases Prácticas / Teóricas
+                          </li>
                       </div>
                     </div>
                   </div>

@@ -157,10 +157,10 @@ export default function Timonelyatemotor() {
                                         <p className="font-medium text-gray-200 uppercase">Socios</p>
 
                                         <h2 className="text-3xl font-bold text-white uppercase ">
-                                            $135.000
+                                            $255.000
                                         </h2>
                                         <p className="text-white">+</p>
-                                        <p className="font-medium text-gray-200">Inscripcion: $85.000 </p>
+                                        <p className="font-medium text-gray-200">Inscripcion: $100.000 </p>
                                         <Link to="/formulario">
                                           <button className="w-full px-4 py-2 mt-10 tracking-wide text-blue-500 capitalize transition-colors duration-300 transform bg-white rounded-md hover:bg-gray-100 focus:outline-none focus:bg-gray-100 focus:ring focus:ring-gray-200 focus:ring-opacity-80">
                                               Inscribirse
@@ -174,10 +174,10 @@ export default function Timonelyatemotor() {
                                         <p className="font-medium text-gray-200 uppercase">NO Socios</p>
 
                                         <h2 className="text-3xl font-bold text-white uppercase ">
-                                            $160.000
+                                            $300.000
                                         </h2>
                                         <p className="text-white">+</p>
-                                        <p className="font-medium text-gray-200">Inscripcion: $100.000 </p>
+                                        <p className="font-medium text-gray-200">Inscripcion: $120.000 </p>
 
                                         <Link to="/formulario">
                                           <button className="w-full px-4 py-2 mt-10 tracking-wide text-blue-500 capitalize transition-colors duration-300 transform bg-white rounded-md hover:bg-gray-100 focus:outline-none focus:bg-gray-100 focus:ring focus:ring-gray-200 focus:ring-opacity-80">
@@ -245,9 +245,12 @@ export default function Timonelyatemotor() {
                         />
                       <div className="grid gap-1">
                           <h3 className="font-semibold">Romero Argerich Bautista</h3>
-                          <p className="text-gray-500 ">
+                          <li className="text-gray-500 ">
+                          Patron de Yate a Vela o Motor 
+                          </li>
+                          <li className="text-gray-500 ">
                           Profesor Clases Prácticas / Teóricas
-                          </p>
+                          </li>
                       </div>
                     </div>
                     <div className="grid gap-4">
@@ -260,9 +263,12 @@ export default function Timonelyatemotor() {
                       />
                       <div className="grid gap-1">
                           <h3 className="font-semibold">Romero Miguel Angel</h3>
-                          <p className="text-gray-500 ">
-                          Profesor Clases Teóricas / Prácticas
-                          </p>
+                          <li className="text-gray-500 ">
+                          PILOTO de YATES 
+                          </li>
+                          <li className="text-gray-500 ">
+                          Profesor Clases Prácticas / Teóricas
+                          </li>
                       </div>
                     </div>
                     <div className="grid gap-4">
@@ -275,9 +281,12 @@ export default function Timonelyatemotor() {
                       />
                       <div className="grid gap-1">
                           <h3 className="font-semibold">Caruso Martin</h3>
-                          <p className="text-gray-500 ">
-                          Profesor Clases Teóricas / Prácticas
-                          </p>
+                          <li className="text-gray-500 ">
+                          Patron de Yate a Vela o Motor 
+                          </li>
+                          <li className="text-gray-500 ">
+                          Profesor Clases Prácticas / Teóricas
+                          </li>
                       </div>
                     </div>
                   </div>
@@ -298,10 +307,7 @@ export default function Timonelyatemotor() {
                         <p className="text-gray-600 leading-relaxed">
                           El curso de navegación avanzada incluye:
                           <ul className="list-disc pl-6 space-y-2 mt-2">
-                            <li>Uso de brújulas, GPS y otros instrumentos de navegación</li>
-                            <li>Planificación de rutas seguras y eficientes</li>
-                            <li>Técnicas de navegación en diferentes entornos (mar, montaña, selva)</li>
-                            <li>Toma de decisiones en situaciones de emergencia</li>
+                            <li>Libro, material didáctico y seguro personal</li>
                             <li>Prácticas de campo y simulaciones realistas</li>
                           </ul>
                         </p>

@@ -54,7 +54,7 @@ const Footer = () => {
                                 
                             </li>
                             <li>
-                                <Link to="https://wa.me/+543445405385">
+                                <Link to="https://wa.me/+543541540017">
                                     <img src="../assets/img/whatsapp.png" className="w-20"/>
                                 </Link>
                             </li>

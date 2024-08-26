@@ -4,7 +4,10 @@ import React, { useEffect } from 'react';
 
 
 
+
+
 const Carrusel = () => {
+  
     useEffect(() => {
         // Selecciona el elemento con la clase 'menu-btn'
         const menuBtn = document.querySelector(".menu-btn");
@@ -119,12 +122,12 @@ const Carrusel = () => {
 
             <section className="home">
                 <div className="carousel-container">  
-                  <video className = "video-slide active"  src="../assets/videos/video3.mp4" autoPlay muted loop></video>
-                  <video className = "video-slide"  src="../assets/videos/video1.mp4" autoPlay muted loop></video>
-                  <video className = "video-slide"  src="../assets/videos/video2.mp4" autoPlay muted loop></video>
-                  <video className = "video-slide"  src="../assets/videos/video4.mp4" autoPlay muted loop></video>
-                  <video className = "video-slide"  src="../assets/videos/video5.mp4" autoPlay muted loop></video>
-                  <video className = "video-slide"  src="../assets/videos/video6.mp4" autoPlay muted loop></video>
+                  <video className = "video-slide active"  src="../assets/videos/video3.mp4" autoPlay muted loop playsInline></video>
+                  <video className = "video-slide"  src="../assets/videos/video1.mp4" autoPlay muted loop playsInline></video>
+                  <video className = "video-slide"  src="../assets/videos/video2.mp4" autoPlay muted loop playsInline></video>
+                  <video className = "video-slide"  src="../assets/videos/video4.mp4" autoPlay muted loop playsInline></video>
+                  <video className = "video-slide"  src="../assets/videos/video5.mp4" autoPlay muted loop playsInline></video>
+                  <video className = "video-slide"  src="../assets/videos/video6.mp4" autoPlay muted loop playsInline></video>
                 </div>
                 
 
