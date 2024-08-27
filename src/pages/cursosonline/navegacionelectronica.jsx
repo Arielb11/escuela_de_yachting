@@ -80,14 +80,14 @@ export default function Navegacionelec() {
                         className="rounded-lg object-cover w-full aspect-[3/2]"
                     />
                     <img
-                        src="../assets/img/curso2.jpg"
+                        src="../assets/img/note.jpg"
                         alt="Curso de Navegación"
                         width={600}
                         height={400}
                         className="rounded-lg object-cover w-full aspect-[3/2]"
                     />
                     <img
-                        src="../assets/img/curso3.jpg"
+                        src="../assets/img/char.png"
                         alt="Curso de Navegación"
                         width={600}
                         height={400}
@@ -108,7 +108,7 @@ export default function Navegacionelec() {
                           <ul className="space-y-2 text-gray-700 ">
                               <li>
                               <CheckIcon className="mr-2 inline-block h-4 w-4 text-primary" />
-                              Dominar el uso de brújulas, GPS y otros instrumentos de navegación
+                              Dominar el uso de compas de gobierno, GPS y otros instrumentos de navegación electronica
                               </li>
                               <li>
                               <CheckIcon className="mr-2 inline-block h-4 w-4 text-primary" />
@@ -156,11 +156,11 @@ export default function Navegacionelec() {
                                     <div className="w-full p-8 space-y-4 text-center bg-azul-edit rounded-lg">
                                         <p className="font-medium text-gray-200 uppercase">Socios</p>
 
-                                        <h2 className="text-3xl font-bold text-white uppercase ">
-                                            $135.000
+                                        <h2 className="text-1xl font-bold text-white uppercase ">
+                                          Proximamente..
                                         </h2>
                                         <p className="text-white">+</p>
-                                        <p className="font-medium text-gray-200">Inscripcion: $85.000 </p>
+                                        <p className="font-medium text-gray-200">Inscripcion: Proximamente.. </p>
                                         <Link to="/formulario">
                                           <button className="w-full px-4 py-2 mt-10 tracking-wide text-blue-500 capitalize transition-colors duration-300 transform bg-white rounded-md hover:bg-gray-100 focus:outline-none focus:bg-gray-100 focus:ring focus:ring-gray-200 focus:ring-opacity-80">
                                               Inscribirse
@@ -173,11 +173,11 @@ export default function Navegacionelec() {
                                     <div className="w-full p-8 space-y-4 text-center bg-azul-edit rounded-lg">
                                         <p className="font-medium text-gray-200 uppercase">NO Socios</p>
 
-                                        <h2 className="text-3xl font-bold text-white uppercase ">
-                                            $160.000
+                                        <h2 className="text-1xl font-bold text-white uppercase ">
+                                          Proximamente..
                                         </h2>
                                         <p className="text-white">+</p>
-                                        <p className="font-medium text-gray-200">Inscripcion: $100.000 </p>
+                                        <p className="font-medium text-gray-200">Inscripcion: Proximamente.. </p>
 
                                         <Link to="/formulario">
                                           <button className="w-full px-4 py-2 mt-10 tracking-wide text-blue-500 capitalize transition-colors duration-300 transform bg-white rounded-md hover:bg-gray-100 focus:outline-none focus:bg-gray-100 focus:ring focus:ring-gray-200 focus:ring-opacity-80">

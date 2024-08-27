@@ -68,7 +68,7 @@ export default function Navegacionastro() {
                   <div className="grid gap-4">
                     <h1 className="text-3xl md:text-5xl font-bold text-gray-600 body-font">Curso de Navegacion Astronomica(Online)</h1>
                     <p className="text-lg md:text-xl text-gray-500 ">
-                    El Curso esta dirigido a otorgar los conocimientos necesarios para obtener la habilitación de Piloto de Yate, la de mayor nivel nacional para la conducción de embarcaciones deportivas.
+                    El Curso esta dirigido a patrones de Yate a vela y/o motor que aspiren a obtener habilitacion de piloto de yate en la escuela superior de la Prefectura Naval Argentina
                     </p>
                   </div>
                   <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
@@ -99,7 +99,7 @@ export default function Navegacionastro() {
                         <div className="grid gap-2">
                           <h2 className="text-2xl md:text-3xl font-bold">Detalles del Curso</h2>
                           <p className="text-gray-700 ">
-                          El Curso de Piloto de Yate está pensado para aquellos que aspiran a navegar sin restricción alguna, cruzar el “charco” o cualquier océano, sin tener limitaciones, también para aquellos que quieran ampliar sus conocimientos en las materias Meteorología, Seguridad marítima fluvial, Legislación marítima fluvial y Navegación Astronómica o simplemente, para los que desean obtener la máxima habilitación deportiva internacional.
+                          El Curso de Navegacion Astronomica está pensado para aquellos que aspiran a navegar sin restricción alguna, cruzar el “charco” o cualquier océano, sin tener limitaciones, también para aquellos que quieran ampliar sus conocimientos en las materias de Navegación Astronómica para pilotos de Yate. Máxima habilitación deportiva internacional.
                           </p>
                         </div>
                         <hr />
@@ -108,20 +108,13 @@ export default function Navegacionastro() {
                           <ul className="space-y-2 text-gray-700 ">
                               <li>
                               <CheckIcon className="mr-2 inline-block h-4 w-4 text-primary" />
-                              Dominar el uso de brújulas, GPS y otros instrumentos de navegación
+                              Dominar todas las formas de posicionamiento, ya sea electronica o Astronomica
                               </li>
                               <li>
                               <CheckIcon className="mr-2 inline-block h-4 w-4 text-primary" />
-                              Aprender a planificar rutas seguras y eficientes
+                              Aprender a planificar rutas oceanicas seguras y eficientes
                               </li>
-                              <li>
-                              <CheckIcon className="mr-2 inline-block h-4 w-4 text-primary" />
-                              Desarrollar habilidades de toma de decisiones en situaciones de emergencia
-                              </li>
-                              <li>
-                              <CheckIcon className="mr-2 inline-block h-4 w-4 text-primary" />
-                              Conocer las técnicas de navegación en diferentes entornos (mar, montaña, selva)
-                              </li>
+                              
                           </ul>
                         </div>
                         <hr />
@@ -156,11 +149,11 @@ export default function Navegacionastro() {
                                     <div className="w-full p-8 space-y-4 text-center bg-azul-edit rounded-lg">
                                         <p className="font-medium text-gray-200 uppercase">Socios</p>
 
-                                        <h2 className="text-3xl font-bold text-white uppercase ">
-                                            $135.000
+                                        <h2 className="text-1xl font-bold text-white uppercase ">
+                                            Proximamente..
                                         </h2>
                                         <p className="text-white">+</p>
-                                        <p className="font-medium text-gray-200">Inscripcion: $85.000 </p>
+                                        <p className="font-medium text-gray-200">Proximamente.. </p>
                                         <Link to="/formulario">
                                           <button className="w-full px-4 py-2 mt-10 tracking-wide text-blue-500 capitalize transition-colors duration-300 transform bg-white rounded-md hover:bg-gray-100 focus:outline-none focus:bg-gray-100 focus:ring focus:ring-gray-200 focus:ring-opacity-80">
                                               Inscribirse
@@ -173,11 +166,11 @@ export default function Navegacionastro() {
                                     <div className="w-full p-8 space-y-4 text-center bg-azul-edit rounded-lg">
                                         <p className="font-medium text-gray-200 uppercase">NO Socios</p>
 
-                                        <h2 className="text-3xl font-bold text-white uppercase ">
-                                            $160.000
+                                        <h2 className="text-1xl font-bold text-white uppercase ">
+                                        Proximamente..
                                         </h2>
                                         <p className="text-white">+</p>
-                                        <p className="font-medium text-gray-200">Inscripcion: $100.000 </p>
+                                        <p className="font-medium text-gray-200">Proximamente.. </p>
 
                                         <Link to="/formulario">
                                           <button className="w-full px-4 py-2 mt-10 tracking-wide text-blue-500 capitalize transition-colors duration-300 transform bg-white rounded-md hover:bg-gray-100 focus:outline-none focus:bg-gray-100 focus:ring focus:ring-gray-200 focus:ring-opacity-80">
@@ -214,7 +207,7 @@ export default function Navegacionastro() {
                         <div className="grid gap-2">
                           <h2 className="text-2xl md:text-3xl font-bold">Duración</h2>
                           <p className="text-gray-500 ">
-                          5 semanas
+                          5 meses
                           </p>
                         </div>
                         <div className="grid gap-2">
@@ -236,48 +229,21 @@ export default function Navegacionastro() {
                   <h2 className="text-2xl md:text-3xl font-bold">Nuestros Instructores</h2>
                   <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
                     <div className="grid gap-4">
-                        <img
-                            src="../assets/img/nos1.jpg"
-                            alt="Instructor 1"
-                            width={100}
-                            height={100}
-                            className="rounded-full w-20 h-20 object-cover"
-                        />
-                      <div className="grid gap-1">
-                          <h3 className="font-semibold">Juan Pérez</h3>
-                          <p className="text-gray-500 ">
-                          Experto en navegación con más de 15 años de experiencia.
-                          </p>
-                      </div>
-                    </div>
-                    <div className="grid gap-4">
                       <img
-                          src="../assets/img/nos1.jpg"
+                          src="../assets/img/miky.jpeg"
                           alt="Instructor 2"
                           width={100}
                           height={100}
                           className="rounded-full w-20 h-20 object-cover"
                       />
                       <div className="grid gap-1">
-                          <h3 className="font-semibold">María Gómez</h3>
-                          <p className="text-gray-500 ">
-                          Instructora certificada en navegación terrestre y marítima.
-                          </p>
-                      </div>
-                    </div>
-                    <div className="grid gap-4">
-                      <img
-                          src="../assets/img/nos1.jpg"
-                          alt="Instructor 3"
-                          width={100}
-                          height={100}
-                          className="rounded-full w-20 h-20 object-cover"
-                      />
-                      <div className="grid gap-1">
-                          <h3 className="font-semibold">Pedro Rodríguez</h3>
-                          <p className="text-gray-500 ">
-                          Experto en navegación de montaña con amplia trayectoria.
-                          </p>
+                          <h3 className="font-semibold">Romero Miguel Angel</h3>
+                          <li className="text-gray-500 ">
+                          PILOTO de YATES 
+                          </li>
+                          <li className="text-gray-500 ">
+                          Profesor Clases Prácticas / Teóricas
+                          </li>
                       </div>
                     </div>
                   </div>

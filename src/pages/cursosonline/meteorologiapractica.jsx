@@ -156,11 +156,11 @@ export default function Meteorologiapractica() {
                                     <div className="w-full p-8 space-y-4 text-center bg-azul-edit rounded-lg">
                                         <p className="font-medium text-gray-200 uppercase">Socios</p>
 
-                                        <h2 className="text-3xl font-bold text-white uppercase ">
-                                            $135.000
+                                        <h2 className="text-1xl font-bold text-white uppercase ">
+                                          Proximamente..
                                         </h2>
                                         <p className="text-white">+</p>
-                                        <p className="font-medium text-gray-200">Inscripcion: $85.000 </p>
+                                        <p className="font-medium text-gray-200">Proximamente.. </p>
                                         <Link to="/formulario">
                                           <button className="w-full px-4 py-2 mt-10 tracking-wide text-blue-500 capitalize transition-colors duration-300 transform bg-white rounded-md hover:bg-gray-100 focus:outline-none focus:bg-gray-100 focus:ring focus:ring-gray-200 focus:ring-opacity-80">
                                               Inscribirse
@@ -173,11 +173,11 @@ export default function Meteorologiapractica() {
                                     <div className="w-full p-8 space-y-4 text-center bg-azul-edit rounded-lg">
                                         <p className="font-medium text-gray-200 uppercase">NO Socios</p>
 
-                                        <h2 className="text-3xl font-bold text-white uppercase ">
-                                            $160.000
+                                        <h2 className="text-1xl font-bold text-white uppercase ">
+                                            Proximamente..
                                         </h2>
                                         <p className="text-white">+</p>
-                                        <p className="font-medium text-gray-200">Inscripcion: $100.000 </p>
+                                        <p className="font-medium text-gray-200">Proximamente.. </p>
 
                                         <Link to="/formulario">
                                           <button className="w-full px-4 py-2 mt-10 tracking-wide text-blue-500 capitalize transition-colors duration-300 transform bg-white rounded-md hover:bg-gray-100 focus:outline-none focus:bg-gray-100 focus:ring focus:ring-gray-200 focus:ring-opacity-80">
