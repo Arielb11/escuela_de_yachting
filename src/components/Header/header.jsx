@@ -30,7 +30,7 @@ const Header = () => {
     return (
         <>
             <header className="doble">
-                <a href="/" className="brand"><img src="/src/assets/img/logo.png" alt="Logo" /></a>
+                <a href="/" className="brand"><img src="../assets/img/logo.png" alt="Logo" /></a>
                 <div className="menu-btn"></div>
 
                 <div className="navigation">

@@ -33,14 +33,14 @@ const Viajes = () => {
             <section className="text-gray-600 body-font">
                 <div className="container  mx-auto flex flex-wrap">
                     <div className="lg:w-1/2 w-full mb-10 lg:mb-0 rounded-lg overflow-hidden">
-                        <img alt="feature" className="object-cover object-center h-full w-full " src="/src/assets/img/foto-prueba3.jpg" />
+                        <img alt="feature" className="object-cover object-center h-full w-full " src="../assets/img/foto-prueba3.jpg" />
                     </div>
                     <div className="flex flex-col flex-wrap lg:py-6 -mb-10 lg:w-1/2 lg:pl-12 lg:text-left text-center">
                         <h2 className="text-center text-6xl font-bold">Viajes de Recreación</h2>
                         <p className="text-center text-xl">Disfruta el placer de navegar!</p>
                         <div className="flex flex-col mb-10 mt-20 lg:items-start items-center">
                             <div className="w-12 h-12 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 mb-5">
-                                <img src="/src/assets/videos/contacto.gif" alt="" />
+                                <img src="../assets/videos/contacto.gif" alt="" />
                             </div>
                             <div className="flex-grow">
                                 <h2 className="text-gray-900 text-lg title-font font-medium mb-3">Contactanos</h2>
@@ -49,7 +49,7 @@ const Viajes = () => {
                         </div>
                         <div className="flex flex-col mb-10 lg:items-start items-center">
                             <div className="w-12 h-12 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 mb-5">
-                                <img src="/src/assets/videos/faro (1).gif" alt="" />
+                                <img src="../assets/videos/faro (1).gif" alt="" />
                             </div>
                             <div className="flex-grow">
                                 <h2 className="text-gray-900 text-lg title-font font-medium mb-3">Te Asesoramos</h2>
@@ -58,7 +58,7 @@ const Viajes = () => {
                         </div>
                         <div className="flex flex-col mb-10 lg:items-start items-center">
                             <div className="w-12 h-12 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 mb-5">
-                                <img src="/src/assets/videos/fiesta.gif" alt="" />
+                                <img src="../assets/videos/fiesta.gif" alt="" />
                             </div>
                             <div className="flex-grow">
                                 <h2 className="text-gray-900 text-lg title-font font-medium mb-3">Disfruta al Maximo</h2>

@@ -73,21 +73,21 @@ export default function Conductornautico() {
                   </div>
                   <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
                     <img
-                        src="/src/assets/img/curso1.jpg"
+                        src="../assets/img/conductor.jpeg"
                         alt="Curso de Navegación"
                         width={600}
                         height={400}
                         className="rounded-lg object-cover w-full aspect-[3/2]"
                     />
                     <img
-                        src="/src/assets/img/curso2.jpg"
+                        src="../assets/img/conductor2.jpeg"
                         alt="Curso de Navegación"
                         width={600}
                         height={400}
                         className="rounded-lg object-cover w-full aspect-[3/2]"
                     />
                     <img
-                        src="/src/assets/img/curso3.jpg"
+                        src="../assets/img/conductor3.jpeg"
                         alt="Curso de Navegación"
                         width={600}
                         height={400}
@@ -157,7 +157,7 @@ export default function Conductornautico() {
                                         <p className="font-medium text-gray-200 uppercase">Socios</p>
 
                                         <h2 className="text-3xl font-bold text-white uppercase ">
-                                            $135.000
+                                            $70.000
                                         </h2>
                                         <p className="text-white">+</p>
                                         <p className="font-medium text-gray-200">Inscripcion: $85.000 </p>
@@ -174,7 +174,7 @@ export default function Conductornautico() {
                                         <p className="font-medium text-gray-200 uppercase">NO Socios</p>
 
                                         <h2 className="text-3xl font-bold text-white uppercase ">
-                                            $160.000
+                                            $80.000
                                         </h2>
                                         <p className="text-white">+</p>
                                         <p className="font-medium text-gray-200">Inscripcion: $100.000 </p>
@@ -193,19 +193,19 @@ export default function Conductornautico() {
                         <div className="grid gap-2">
                           <h2 className="text-2xl md:text-3xl font-bold">Metodos de pago</h2>
                           <div className="flex items-center space-x-4">
-                            <img src="/src/assets/img/billete-de-banco.png" alt="" className="h-5 w-5"/>
+                            <img src="../assets/img/billete-de-banco.png" alt="" className="h-5 w-5"/>
                             <p className="text-gray-500 text-base">
                               Efectivo
                             </p>
                           </div>
                           <div className="flex items-center space-x-4">
-                            <img src="/src/assets/img/cajero-automatico.png" alt="" className="h-5 w-5"/>
+                            <img src="../assets/img/cajero-automatico.png" alt="" className="h-5 w-5"/>
                             <p className="text-gray-500 text-base">
                               Deposito
                             </p>
                           </div>
                           <div className="flex items-center space-x-4">
-                            <img src="/src/assets/img/transferencia-movil.png" alt="" className="h-5 w-5"/>
+                            <img src="../assets/img/transferencia-movil.png" alt="" className="h-5 w-5"/>
                             <p className="text-gray-500 text-base">
                               Transferencia
                             </p>
@@ -237,47 +237,56 @@ export default function Conductornautico() {
                   <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
                     <div className="grid gap-4">
                         <img
-                            src="/src/assets/img/nos1.jpg"
+                            src="../assets/img/bauti.jpeg"
                             alt="Instructor 1"
                             width={100}
                             height={100}
                             className="rounded-full w-20 h-20 object-cover"
                         />
                       <div className="grid gap-1">
-                          <h3 className="font-semibold">Juan Pérez</h3>
-                          <p className="text-gray-500 ">
-                          Experto en navegación con más de 15 años de experiencia.
-                          </p>
+                          <h3 className="font-semibold">Romero Argerich Bautista</h3>
+                          <li className="text-gray-500 ">
+                          Patron de Yate a Vela o Motor 
+                          </li>
+                          <li className="text-gray-500 ">
+                          Profesor Clases Prácticas / Teóricas
+                          </li>
                       </div>
                     </div>
                     <div className="grid gap-4">
                       <img
-                          src="/src/assets/img/nos1.jpg"
+                          src="../assets/img/miky.jpeg"
                           alt="Instructor 2"
                           width={100}
                           height={100}
                           className="rounded-full w-20 h-20 object-cover"
                       />
                       <div className="grid gap-1">
-                          <h3 className="font-semibold">María Gómez</h3>
-                          <p className="text-gray-500 ">
-                          Instructora certificada en navegación terrestre y marítima.
-                          </p>
+                          <h3 className="font-semibold">Romero Miguel Angel</h3>
+                          <li className="text-gray-500 ">
+                          PILOTO de YATES 
+                          </li>
+                          <li className="text-gray-500 ">
+                          Profesor Clases Prácticas / Teóricas
+                          </li>
                       </div>
                     </div>
                     <div className="grid gap-4">
                       <img
-                          src="/src/assets/img/nos1.jpg"
+                          src="../assets/img/martin.jpeg"
                           alt="Instructor 3"
                           width={100}
                           height={100}
                           className="rounded-full w-20 h-20 object-cover"
                       />
                       <div className="grid gap-1">
-                          <h3 className="font-semibold">Pedro Rodríguez</h3>
-                          <p className="text-gray-500 ">
-                          Experto en navegación de montaña con amplia trayectoria.
-                          </p>
+                          <h3 className="font-semibold">Caruso Martin</h3>
+                          <li className="text-gray-500 ">
+                          Patron de Yate a Vela o Motor 
+                          </li>
+                          <li className="text-gray-500 ">
+                          Profesor Clases Prácticas / Teóricas
+                          </li>
                       </div>
                     </div>
                   </div>
