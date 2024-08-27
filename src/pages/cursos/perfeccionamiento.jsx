@@ -108,7 +108,7 @@ export default function Perfeccionamiento() {
                           <ul className="space-y-2 text-gray-700 ">
                               <li>
                               <CheckIcon className="mr-2 inline-block h-4 w-4 text-primary" />
-                              Dominar el uso de brújulas, GPS y otros instrumentos de navegación
+                              Dominar el uso de compás de gobierno, GPS y otros instrumentos de navegación
                               </li>
                               <li>
                               <CheckIcon className="mr-2 inline-block h-4 w-4 text-primary" />
@@ -120,7 +120,7 @@ export default function Perfeccionamiento() {
                               </li>
                               <li>
                               <CheckIcon className="mr-2 inline-block h-4 w-4 text-primary" />
-                              Conocer las técnicas de navegación en diferentes entornos (mar, montaña, selva)
+                              Conocer las técnicas de navegación en diferentes entornos 
                               </li>
                           </ul>
                         </div>
@@ -157,10 +157,11 @@ export default function Perfeccionamiento() {
                                         <p className="font-medium text-gray-200 uppercase">Socios</p>
 
                                         <h2 className="text-3xl font-bold text-white uppercase ">
-                                            $135.000
+                                            $255.000
                                         </h2>
+                                        <p className="text-sm text-gray-200">(3 cuotas de $85.000) </p>
                                         <p className="text-white">+</p>
-                                        <p className="font-medium text-gray-200">Inscripcion: $85.000 </p>
+                                        <p className="font-medium text-gray-200">Inscripcion: $60.000 </p>
                                         <Link to="/formulario">
                                           <button className="w-full px-4 py-2 mt-10 tracking-wide text-blue-500 capitalize transition-colors duration-300 transform bg-white rounded-md hover:bg-gray-100 focus:outline-none focus:bg-gray-100 focus:ring focus:ring-gray-200 focus:ring-opacity-80">
                                               Inscribirse
@@ -174,10 +175,11 @@ export default function Perfeccionamiento() {
                                         <p className="font-medium text-gray-200 uppercase">NO Socios</p>
 
                                         <h2 className="text-3xl font-bold text-white uppercase ">
-                                            $160.000
+                                            $300.000
                                         </h2>
+                                        <p className="text-sm text-gray-200">(3 cuotas de $100.000) </p>
                                         <p className="text-white">+</p>
-                                        <p className="font-medium text-gray-200">Inscripcion: $100.000 </p>
+                                        <p className="font-medium text-gray-200">Inscripcion: $70.000 </p>
 
                                         <Link to="/formulario">
                                           <button className="w-full px-4 py-2 mt-10 tracking-wide text-blue-500 capitalize transition-colors duration-300 transform bg-white rounded-md hover:bg-gray-100 focus:outline-none focus:bg-gray-100 focus:ring focus:ring-gray-200 focus:ring-opacity-80">
@@ -222,7 +224,11 @@ export default function Perfeccionamiento() {
                           
                           <p className="text-gray-500 ">
                             <span className="mr-3">&#9875;</span>
-                            Clases Prácticas: Presenciales a bordo de los barcos escuela de clase J24, en sede Club Náutico Córdoba, Villa Carlos Paz. 1 clase semanal de 3 hs. en los siguientes días a elección: GRUPOS: Miércoles, Jueves, Viernes o Sábado desde las 15:00 a las 18:00 y los Sábados desde las 10:30 a las 13:30
+                            Clases Prácticas: Presenciales a bordo de los barcos escuela de clase J24, en sede Club Náutico Córdoba, Villa Carlos Paz. (Tripulacion maxima 4 alumnos por barco) 
+                          </p>
+                          <p className="text-gray-500 ">
+                            <span className="mr-3">&#9875;</span>
+                            1 clase semanal de 3 hs. en los siguientes días a elección:  Miércoles, Jueves, Viernes o Sábado desde las 15:00 a las 18:00
                           </p>
                         </div>
                     </div>
@@ -292,7 +298,7 @@ export default function Perfeccionamiento() {
                     <AccordionItem>
                       <AccordionTrigger className="group cursor-pointer p-5 border border-gray-300 rounded-lg shadow-md hover:shadow-lg transition duration-300 ease-in-out transform hover:-translate-y-1 bg-white w-full">
                         <div className="mb-5 flex items-center justify-between w-full">
-                          <span className="text-lg font-semibold text-gray-700 group-hover:text-blue-600 transition duration-300 ease-in-out">¿Qué se incluye en el curso de navegación avanzada?</span>
+                          <span className="text-lg font-semibold text-gray-700 group-hover:text-blue-600 transition duration-300 ease-in-out">¿Qué se incluye en el curso de Perfeccionamiento?</span>
                           <svg className="w-6 h-6 text-gray-500 group-hover:text-blue-600 transition duration-300 ease-in-out ml-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M19 9l-7 7-7-7"></path>
                           </svg>
@@ -300,17 +306,14 @@ export default function Perfeccionamiento() {
                       </AccordionTrigger>
                       <AccordionContent className="p-6 bg-gray-50 border-t border-gray-300 rounded-b-lg shadow-inner">
                         <p className="text-gray-600 leading-relaxed">
-                          El curso de navegación avanzada incluye:
+                          El curso de conductor nautico incluye:
                           <ul className="list-disc pl-6 space-y-2 mt-2">
-                            <li>Uso de brújulas, GPS y otros instrumentos de navegación</li>
-                            <li>Planificación de rutas seguras y eficientes</li>
-                            <li>Técnicas de navegación en diferentes entornos (mar, montaña, selva)</li>
-                            <li>Toma de decisiones en situaciones de emergencia</li>
-                            <li>Prácticas de campo y simulaciones realistas</li>
+                            <li> seguro personal</li>
                           </ul>
                         </p>
                       </AccordionContent>
                     </AccordionItem>
+                    <br />
                     <AccordionItem>
                       <AccordionTrigger className="group cursor-pointer p-5 border border-gray-300 rounded-lg shadow-md hover:shadow-lg transition duration-300 ease-in-out transform hover:-translate-y-1 bg-white w-full">
                         <div className="mb-5 flex items-center justify-between w-full">
@@ -322,10 +325,11 @@ export default function Perfeccionamiento() {
                       </AccordionTrigger>
                       <AccordionContent className="p-6 bg-gray-50 border-t border-gray-300 rounded-b-lg shadow-inner">
                         <p className="text-gray-600 leading-relaxed">
-                          Este curso está diseñado para personas con un nivel intermedio de experiencia en navegación. Se recomienda tener conocimientos básicos previos, pero no es necesario ser un experto. Durante el curso, se cubrirán desde conceptos fundamentales hasta técnicas avanzadas, de manera que todos los participantes puedan mejorar sus habilidades.
+                          Este curso está diseñado para personas con una experiencia previa como timonel de vela. Durante el curso, se cubrirán desde conceptos fundamentales hasta técnicas avanzadas, de manera que todos los participantes puedan mejorar sus habilidades.
                         </p>
                       </AccordionContent>
                     </AccordionItem>
+                    <br />
                     <AccordionItem>
                       <AccordionTrigger className="group cursor-pointer p-5 border border-gray-300 rounded-lg shadow-md hover:shadow-lg transition duration-300 ease-in-out transform hover:-translate-y-1 bg-white w-full">
                         <div className="mb-5 flex items-center justify-between w-full">
@@ -337,7 +341,7 @@ export default function Perfeccionamiento() {
                       </AccordionTrigger>
                       <AccordionContent className="p-6 bg-gray-50 border-t border-gray-300 rounded-b-lg shadow-inner">
                         <p className="text-gray-600 leading-relaxed">
-                          No se requiere equipo o material específico para participar en el curso. Proporcionaremos todos los instrumentos de navegación necesarios durante las sesiones. Sin embargo, se recomienda que los estudiantes tengan acceso a una brújula y un GPS básico para practicar fuera de las clases.
+                          No se requiere equipo o material específico para participar en el curso. Proporcionaremos todos los instrumentos de navegación necesarios durante las sesiones. 
                         </p>
                       </AccordionContent>
                     </AccordionItem>

@@ -68,7 +68,7 @@ export default function Timonelyatemotor() {
                   <div className="grid gap-4">
                     <h1 className="text-3xl md:text-5xl font-bold text-gray-600 body-font">Curso de Timonel Yate Motor</h1>
                     <p className="text-lg md:text-xl text-gray-500 ">
-                      El Curso de TIMONEL de yates a motor es el ideal para quien desea adquirir o complementar conocimientos náuticos que le permitan obtener una habilitación de gran amplitud, con la posibilidad de despachar embarcaciones deportivas en aguas nacionales e internacionales (Costas y archipiélagos de América, Europa y Polinesia).
+                      El Curso de TIMONEL de yates a motor es el ideal para quien desea adquirir o complementar conocimientos náuticos que le permitan obtener una habilitación de gran amplitud, con la posibilidad de despachar embarcaciones deportivas a motor sin limite de potencia y hasta 40 pies de eslora en aguas nacionales e internacionales (Costas y archipiélagos de América, Europa y Polinesia).
                     </p>
                   </div>
                   <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
@@ -108,7 +108,7 @@ export default function Timonelyatemotor() {
                           <ul className="space-y-2 text-gray-700 ">
                               <li>
                               <CheckIcon className="mr-2 inline-block h-4 w-4 text-primary" />
-                              Dominar el uso de brújulas, GPS y otros instrumentos de navegación
+                              Dominar el uso de compas de gobierno, GPS y otros instrumentos de navegación
                               </li>
                               <li>
                               <CheckIcon className="mr-2 inline-block h-4 w-4 text-primary" />
@@ -120,7 +120,7 @@ export default function Timonelyatemotor() {
                               </li>
                               <li>
                               <CheckIcon className="mr-2 inline-block h-4 w-4 text-primary" />
-                              Conocer las técnicas de navegación en diferentes entornos (mar, montaña, selva)
+                              Conocer las técnicas de navegación en diferentes entornos.
                               </li>
                           </ul>
                         </div>
@@ -159,6 +159,7 @@ export default function Timonelyatemotor() {
                                         <h2 className="text-3xl font-bold text-white uppercase ">
                                             $255.000
                                         </h2>
+                                        <p className="text-sm text-gray-200">(3 cuotas de $85.000) </p>
                                         <p className="text-white">+</p>
                                         <p className="font-medium text-gray-200">Inscripcion: $100.000 </p>
                                         <Link to="/formulario">
@@ -176,6 +177,7 @@ export default function Timonelyatemotor() {
                                         <h2 className="text-3xl font-bold text-white uppercase ">
                                             $300.000
                                         </h2>
+                                        <p className="text-sm text-gray-200">(3 cuotas de $100.000) </p>
                                         <p className="text-white">+</p>
                                         <p className="font-medium text-gray-200">Inscripcion: $120.000 </p>
 
@@ -297,7 +299,7 @@ export default function Timonelyatemotor() {
                     <AccordionItem>
                       <AccordionTrigger className="group cursor-pointer p-5 border border-gray-300 rounded-lg shadow-md hover:shadow-lg transition duration-300 ease-in-out transform hover:-translate-y-1 bg-white w-full">
                         <div className="mb-5 flex items-center justify-between w-full">
-                          <span className="text-lg font-semibold text-gray-700 group-hover:text-blue-600 transition duration-300 ease-in-out">¿Qué se incluye en el curso de navegación avanzada?</span>
+                          <span className="text-lg font-semibold text-gray-700 group-hover:text-blue-600 transition duration-300 ease-in-out">¿Qué se incluye en el curso de Timonel de Yate a motor?</span>
                           <svg className="w-6 h-6 text-gray-500 group-hover:text-blue-600 transition duration-300 ease-in-out ml-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M19 9l-7 7-7-7"></path>
                           </svg>
@@ -305,14 +307,16 @@ export default function Timonelyatemotor() {
                       </AccordionTrigger>
                       <AccordionContent className="p-6 bg-gray-50 border-t border-gray-300 rounded-b-lg shadow-inner">
                         <p className="text-gray-600 leading-relaxed">
-                          El curso de navegación avanzada incluye:
+                          El curso de Timonel Motor incluye:
                           <ul className="list-disc pl-6 space-y-2 mt-2">
                             <li>Libro, material didáctico y seguro personal</li>
                             <li>Prácticas de campo y simulaciones realistas</li>
+                            <li>Toma de decisiones en situaciones de emergencia</li>
                           </ul>
                         </p>
                       </AccordionContent>
                     </AccordionItem>
+                    <br />
                     <AccordionItem>
                       <AccordionTrigger className="group cursor-pointer p-5 border border-gray-300 rounded-lg shadow-md hover:shadow-lg transition duration-300 ease-in-out transform hover:-translate-y-1 bg-white w-full">
                         <div className="mb-5 flex items-center justify-between w-full">
@@ -324,10 +328,11 @@ export default function Timonelyatemotor() {
                       </AccordionTrigger>
                       <AccordionContent className="p-6 bg-gray-50 border-t border-gray-300 rounded-b-lg shadow-inner">
                         <p className="text-gray-600 leading-relaxed">
-                          Este curso está diseñado para personas con un nivel intermedio de experiencia en navegación. Se recomienda tener conocimientos básicos previos, pero no es necesario ser un experto. Durante el curso, se cubrirán desde conceptos fundamentales hasta técnicas avanzadas, de manera que todos los participantes puedan mejorar sus habilidades.
+                          Este curso está diseñado para personas sin ninguna experiencia en navegación. Durante el curso, se cubrirán desde conceptos fundamentales hasta técnicas avanzadas, de manera que todos los participantes puedan mejorar sus habilidades.
                         </p>
                       </AccordionContent>
                     </AccordionItem>
+                    <br />
                     <AccordionItem>
                       <AccordionTrigger className="group cursor-pointer p-5 border border-gray-300 rounded-lg shadow-md hover:shadow-lg transition duration-300 ease-in-out transform hover:-translate-y-1 bg-white w-full">
                         <div className="mb-5 flex items-center justify-between w-full">
@@ -339,7 +344,7 @@ export default function Timonelyatemotor() {
                       </AccordionTrigger>
                       <AccordionContent className="p-6 bg-gray-50 border-t border-gray-300 rounded-b-lg shadow-inner">
                         <p className="text-gray-600 leading-relaxed">
-                          No se requiere equipo o material específico para participar en el curso. Proporcionaremos todos los instrumentos de navegación necesarios durante las sesiones. Sin embargo, se recomienda que los estudiantes tengan acceso a una brújula y un GPS básico para practicar fuera de las clases.
+                          No se requiere equipo o material específico para participar en el curso. Proporcionaremos todos los instrumentos de navegación necesarios durante las sesiones. 
                         </p>
                       </AccordionContent>
                     </AccordionItem>

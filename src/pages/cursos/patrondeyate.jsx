@@ -99,8 +99,9 @@ export default function Patrondeyate() {
                         <div className="grid gap-2">
                           <h2 className="text-2xl md:text-3xl font-bold">Detalles del Curso</h2>
                           <p className="text-gray-700 ">
-                          Los objetivos de este curso son los de ahondar en las artes marineras e incorpora una gran cantidad de conocimientos en las cuatros materias fundamentales, Meteorología, Seguridad, Reglamentación y Navegación, es en esta última en la que más se hace hincapié, sobre todo en el aprendizaje de la Navegación por Estima y la Navegación Costera adquiriendo así los conocimientos teóricos y prácticos para una navegación segura en el ámbito establecido para la categoría patrón de yate para obtener la habilitación correspondiente. (P.N.A.) Además de ser pioneros en incorporar en la práctica del uso de sextante.
+                          Los objetivos de este curso son los de ahondar en las artes marineras e incorpora una gran cantidad de conocimientos en las cuatros materias fundamentales, Meteorología, Seguridad, Reglamentación y Navegación, es en esta última en la que más se hace hincapié, sobre todo en el aprendizaje de la Navegación por Estima y la Navegación Costera adquiriendo así los conocimientos teóricos y prácticos para una navegación segura en el ámbito establecido para la categoría patrón de yate para obtener la habilitación correspondiente. (P.N.A.) Además de ser pioneros en incorporar en la práctica del uso de sextante. 
                           </p>
+                          <p className="text-gray-700 ">REQUISITO: Poseer habilitacion de Timonel de Yate a Vela o Motor</p>
                         </div>
                         <hr />
                         <div className="grid gap-2">
@@ -108,7 +109,7 @@ export default function Patrondeyate() {
                           <ul className="space-y-2 text-gray-700 ">
                               <li>
                               <CheckIcon className="mr-2 inline-block h-4 w-4 text-primary" />
-                              Dominar el uso de brújulas, GPS y otros instrumentos de navegación
+                              Dominar el uso de compás de gobierno, GPS, navegacion electronica y otros instrumentos de navegación
                               </li>
                               <li>
                               <CheckIcon className="mr-2 inline-block h-4 w-4 text-primary" />
@@ -120,7 +121,7 @@ export default function Patrondeyate() {
                               </li>
                               <li>
                               <CheckIcon className="mr-2 inline-block h-4 w-4 text-primary" />
-                              Conocer las técnicas de navegación en diferentes entornos (mar, montaña, selva)
+                              Conocer las técnicas de navegación en diferentes entornos.
                               </li>
                           </ul>
                         </div>
@@ -157,10 +158,11 @@ export default function Patrondeyate() {
                                         <p className="font-medium text-gray-200 uppercase">Socios</p>
 
                                         <h2 className="text-3xl font-bold text-white uppercase ">
-                                            $135.000
+                                            $250.000
                                         </h2>
+                                        <p className="text-sm text-gray-200">(5 cuotas de $50.000) </p>
                                         <p className="text-white">+</p>
-                                        <p className="font-medium text-gray-200">Inscripcion: $85.000 </p>
+                                        <p className="font-medium text-gray-200">Inscripcion: $70.000 </p>
                                         <Link to="/formulario">
                                           <button className="w-full px-4 py-2 mt-10 tracking-wide text-blue-500 capitalize transition-colors duration-300 transform bg-white rounded-md hover:bg-gray-100 focus:outline-none focus:bg-gray-100 focus:ring focus:ring-gray-200 focus:ring-opacity-80">
                                               Inscribirse
@@ -174,10 +176,11 @@ export default function Patrondeyate() {
                                         <p className="font-medium text-gray-200 uppercase">NO Socios</p>
 
                                         <h2 className="text-3xl font-bold text-white uppercase ">
-                                            $160.000
+                                            $300.000
                                         </h2>
+                                        <p className="text-sm text-gray-200">(5 cuotas de $60.000) </p>
                                         <p className="text-white">+</p>
-                                        <p className="font-medium text-gray-200">Inscripcion: $100.000 </p>
+                                        <p className="font-medium text-gray-200">Inscripcion: $85.000 </p>
 
                                         <Link to="/formulario">
                                           <button className="w-full px-4 py-2 mt-10 tracking-wide text-blue-500 capitalize transition-colors duration-300 transform bg-white rounded-md hover:bg-gray-100 focus:outline-none focus:bg-gray-100 focus:ring focus:ring-gray-200 focus:ring-opacity-80">
@@ -222,7 +225,7 @@ export default function Patrondeyate() {
                           
                           <p className="text-gray-500 ">
                             <span className="mr-3">&#9875;</span>
-                            Miércoles de 20:00 a 21:30 hs – 1:30 hs de clases semanales Online + 1 clase presencial Práctica de posicionamiento mediante el uso de Compás de Marcaciones y Sextante.
+                            Miércoles de 20:00 a 21:30 hs – 1:30 hs de clases semanales Online + 1 clase presencial Práctica de posicionamiento mediante el uso de Compás de Marcaciones y practica de Sextante.
                           </p>
                           
                           
@@ -294,7 +297,7 @@ export default function Patrondeyate() {
                     <AccordionItem>
                       <AccordionTrigger className="group cursor-pointer p-5 border border-gray-300 rounded-lg shadow-md hover:shadow-lg transition duration-300 ease-in-out transform hover:-translate-y-1 bg-white w-full">
                         <div className="mb-5 flex items-center justify-between w-full">
-                          <span className="text-lg font-semibold text-gray-700 group-hover:text-blue-600 transition duration-300 ease-in-out">¿Qué se incluye en el curso de navegación avanzada?</span>
+                          <span className="text-lg font-semibold text-gray-700 group-hover:text-blue-600 transition duration-300 ease-in-out">¿Qué se incluye en el curso de Patron de Yate?</span>
                           <svg className="w-6 h-6 text-gray-500 group-hover:text-blue-600 transition duration-300 ease-in-out ml-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M19 9l-7 7-7-7"></path>
                           </svg>
@@ -302,17 +305,16 @@ export default function Patrondeyate() {
                       </AccordionTrigger>
                       <AccordionContent className="p-6 bg-gray-50 border-t border-gray-300 rounded-b-lg shadow-inner">
                         <p className="text-gray-600 leading-relaxed">
-                          El curso de navegación avanzada incluye:
+                          El curso de Patron de Yate incluye:
                           <ul className="list-disc pl-6 space-y-2 mt-2">
-                            <li>Uso de brújulas, GPS y otros instrumentos de navegación</li>
-                            <li>Planificación de rutas seguras y eficientes</li>
-                            <li>Técnicas de navegación en diferentes entornos (mar, montaña, selva)</li>
-                            <li>Toma de decisiones en situaciones de emergencia</li>
+                            <li>Libro, material didáctico y seguro personal</li>
                             <li>Prácticas de campo y simulaciones realistas</li>
+                            <li>Toma de decisiones en situaciones de emergencia</li>
                           </ul>
                         </p>
                       </AccordionContent>
                     </AccordionItem>
+                    <br />
                     <AccordionItem>
                       <AccordionTrigger className="group cursor-pointer p-5 border border-gray-300 rounded-lg shadow-md hover:shadow-lg transition duration-300 ease-in-out transform hover:-translate-y-1 bg-white w-full">
                         <div className="mb-5 flex items-center justify-between w-full">
@@ -324,10 +326,11 @@ export default function Patrondeyate() {
                       </AccordionTrigger>
                       <AccordionContent className="p-6 bg-gray-50 border-t border-gray-300 rounded-b-lg shadow-inner">
                         <p className="text-gray-600 leading-relaxed">
-                          Este curso está diseñado para personas con un nivel intermedio de experiencia en navegación. Se recomienda tener conocimientos básicos previos, pero no es necesario ser un experto. Durante el curso, se cubrirán desde conceptos fundamentales hasta técnicas avanzadas, de manera que todos los participantes puedan mejorar sus habilidades.
+                          Este curso está diseñado para personas que posean habilitacion de Timonel de yate a Vela o Motor, con minimo un año de experiencia. Durante el curso, se cubrirán desde conceptos fundamentales hasta técnicas avanzadas, de manera que todos los participantes puedan mejorar sus habilidades.
                         </p>
                       </AccordionContent>
                     </AccordionItem>
+                    <br />
                     <AccordionItem>
                       <AccordionTrigger className="group cursor-pointer p-5 border border-gray-300 rounded-lg shadow-md hover:shadow-lg transition duration-300 ease-in-out transform hover:-translate-y-1 bg-white w-full">
                         <div className="mb-5 flex items-center justify-between w-full">
@@ -339,7 +342,7 @@ export default function Patrondeyate() {
                       </AccordionTrigger>
                       <AccordionContent className="p-6 bg-gray-50 border-t border-gray-300 rounded-b-lg shadow-inner">
                         <p className="text-gray-600 leading-relaxed">
-                          No se requiere equipo o material específico para participar en el curso. Proporcionaremos todos los instrumentos de navegación necesarios durante las sesiones. Sin embargo, se recomienda que los estudiantes tengan acceso a una brújula y un GPS básico para practicar fuera de las clases.
+                          No se requiere equipo o material específico para participar en el curso. Proporcionaremos todos los instrumentos de navegación necesarios durante las sesiones. 
                         </p>
                       </AccordionContent>
                     </AccordionItem>
