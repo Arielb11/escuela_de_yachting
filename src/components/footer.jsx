@@ -33,7 +33,9 @@ const Footer = () => {
                                 <img className="w-7 h-7" src="../assets/img/mapa.png" alt="" /> 
                             </div>
                             <div className="">
-                                <div className=" text-m">Villa Carlos Paz, Cordoba</div>
+                                <Link to="https://maps.app.goo.gl/krgVeitVmaJnxgxe7">
+                                    <div className=" text-m">Villa Carlos Paz, Cordoba</div>
+                                </Link>
                             </div>
                         </div>
 
