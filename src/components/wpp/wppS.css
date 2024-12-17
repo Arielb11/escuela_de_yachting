@@ -1,0 +1,17 @@
+
+.wpp {
+    position: fixed; /* Fija el elemento en la pantalla */
+    bottom: 20px;    /* Distancia desde la parte inferior */
+    right: 20px;     /* Distancia desde la parte derecha */
+    z-index: 9999;   /* Asegura que esté por encima de todo */
+}
+
+.wpp img {
+    width: 60px;    /* Tamaño de la imagen del botón */
+    height: auto;
+    transition: transform 0.3s ease-in-out; /* Efecto al pasar el cursor */
+}
+
+.wpp img:hover {
+    transform: scale(1.1); /* Agranda el botón ligeramente al pasar el cursor */
+}

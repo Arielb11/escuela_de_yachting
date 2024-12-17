@@ -132,7 +132,7 @@ const Carrusel = () => {
                 
 
                 <div className="content active">
-                    <h2>Escuela de Yatching</h2>
+                    <h2>Escuela de Yachting</h2>
                     <p>La Escuela de Náutica Deportiva del Club Náutico Córdoba se fundó en 1997 en Villa Carlos Paz, Argentina. Desde los comienzos, nuestra filosofía siempre ha sido la de ofrecer una formación de máxima calidad, con los medios apropiados y adaptándonos a la disponibilidad de tiempo de nuestros alumnos, por eso tenemos la más amplia disponibilidad de horarios y días para tomar los cursos.</p>
                     <a href="/nosotros">Saber mas</a>
                 </div>

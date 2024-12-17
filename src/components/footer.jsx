@@ -64,7 +64,7 @@ const Footer = () => {
                     </div>
                 </div>
                 <div className="flex py-5 m-auto text-white  text-sm flex-col items-center border-t max-w-screen-xl">
-                    <p>© Copyright 2024. Escuela de Yatching.</p>
+                    <p>© Copyright 2024. Escuela de Yachting.</p>
                 </div>
             </div>
 
