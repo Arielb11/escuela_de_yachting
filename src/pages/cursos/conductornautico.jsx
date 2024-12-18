@@ -222,12 +222,17 @@ export default function Conductornautico() {
                           
                           <p className="text-gray-500 ">
                             <span className="mr-3">&#9875;</span>
-                            Teórico Online: 1 Clase Semanal de 1:30 hs, se desarrollará en Vivo y es Interactiva, Las clases quedan grabadas para rever y repasar el tema
+                            Plataforma virtual asincrónica: Usted dispone de todo el material teórico y administra los tiempos de estudio con nuestro asesoramiento y colaboración. 
                           </p>
-                          
+
                           <p className="text-gray-500 ">
                             <span className="mr-3">&#9875;</span>
-                            Práctico: a confirmar día y horario (a bordo del barco escuela)
+                            Autoevaluacion automatica de cada materia.
+                          </p>
+
+                          <p className="text-gray-500 ">
+                            <span className="mr-3">&#9875;</span>
+                            Práctico: a confirmar día y horario 
                           </p>
                         </div>
                     </div>

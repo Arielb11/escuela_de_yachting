@@ -224,12 +224,22 @@ export default function Timonelvelamotor() {
                           
                           <p className="text-gray-500 ">
                             <span className="mr-3">&#9875;</span>
-                            Clases Teóricas:  24 Clases Teóricas ( 2 X semana )
+                            Plataforma virtual asincrónica: Usted dispone de todo el material teórico y administra los tiempos de estudio con nuestro asesoramiento y colaboración. 
+                          </p>
+
+                          <p className="text-gray-500 ">
+                            <span className="mr-3">&#9875;</span>
+                            Autoevaluacion automatica de cada materia.
+                          </p>
+
+                          <p className="text-gray-500 ">
+                            <span className="mr-3">&#9875;</span>
+                            Teorico/Practicos: Presenciales antes, durante o al finalizar los practicos a bordo
                           </p>
                           
                           <p className="text-gray-500 ">
                             <span className="mr-3">&#9875;</span>
-                            Clases Prácticas: 1 Clase Práctica de 3hs ( 1 X semana)
+                            Clases Prácticas: 1 Clase Práctica a bordo de los veleros escuela de 3hs ( una por semana)
                           </p>
                         </div>
                     </div>

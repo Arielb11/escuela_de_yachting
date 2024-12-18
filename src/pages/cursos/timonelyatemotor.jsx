@@ -224,8 +224,14 @@ export default function Timonelyatemotor() {
                           
                           <p className="text-gray-500 ">
                             <span className="mr-3">&#9875;</span>
-                            Teórico online: 20 clases teóricas de 1 hs los Martes y Jueves 20:00hs
+                            Plataforma virtual asincrónica: Usted dispone de todo el material teórico y administra los tiempos de estudio con nuestro asesoramiento y colaboración. 
                           </p>
+
+                          <p className="text-gray-500 ">
+                            <span className="mr-3">&#9875;</span>
+                            Autoevaluacion automatica de cada materia.
+                          </p>
+
                           
                           <p className="text-gray-500 ">
                             <span className="mr-3">&#9875;</span>

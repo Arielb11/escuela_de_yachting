@@ -225,7 +225,22 @@ export default function Patrondeyate() {
                           
                           <p className="text-gray-500 ">
                             <span className="mr-3">&#9875;</span>
-                            Miércoles de 20:00 a 21:30 hs – 1:30 hs de clases semanales Online + 1 clase presencial Práctica de posicionamiento mediante el uso de Compás de Marcaciones y practica de Sextante.
+                            Plataforma virtual asincrónica: Usted dispone de todo el material teórico y administra los tiempos de estudio con nuestro asesoramiento y colaboración. 
+                          </p>
+
+                          <p className="text-gray-500 ">
+                            <span className="mr-3">&#9875;</span>
+                            Autoevaluacion automatica de cada materia.
+                          </p>
+
+                          <p className="text-gray-500 ">
+                            <span className="mr-3">&#9875;</span>
+                            Práctico: una clase quincenal de apoyo interactiva virtual
+                          </p>
+
+                          <p className="text-gray-500 ">
+                            <span className="mr-3">&#9875;</span>
+                             Una clase presencial Práctica de posicionamiento mediante el uso de Compás de Marcaciones,  Sextante y GPS.
                           </p>
                           
                           
